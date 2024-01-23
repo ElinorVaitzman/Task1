@@ -1,0 +1,178 @@
+/* body */
+body {
+  background-color: #f3f7fa;
+}
+
+/* header */
+header {
+  background-color: #f3f7fa;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  text-decoration: dashed;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fd3d74;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+/* images class */
+.dragon-image {
+  width: 500px;
+}
+
+/* sections flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 16px;
+  padding: 5px;
+}
+
+.right-align {
+  flex-direction: row-reverse;
+}
+
+/* sections */
+section {
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+  align-content: center;
+}
+
+div {
+  text-align: center;
+}
+
+#section1 {
+  background-color: #f3f7fa;
+}
+#section2 {
+  background-color: #e2c2af;
+}
+#section3 {
+  background-color: #f6739f;
+}
+#section4 {
+  background-color: #fd3d74;
+}
+
+#section1.section-hover:hover,
+#section2.section-hover:hover,
+#section3.section-hover:hover,
+#section4.section-hover:hover {
+  background-color: whitesmoke;
+}
+
+/* font addition */
+.uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flex-container .uniquifier {
+  font-weight: 200;
+}
+
+/* cards section */
+#cards-section {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  gap: 5px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  min-width: 200px;
+  height: 320px;
+  border: 1px solid #fd3d74;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 16;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 100%;
+  height: 130px;
+  max-height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* .card-content {
+  padding: 5px;
+} */
+
+.card h4 {
+  color: black;
+  font-size: 16;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 28px;
+}
+
+/* footer */
+footer {
+  background-image: url("/Task1/dragon_Images/background-cover2.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer ul a {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-decoration: underline;
+}
+
+.footer ul a:hover {
+  color: white;
+}
